@@ -20,7 +20,10 @@
         border: none;
     }
 
-
+    .container{
+      max-width: 1200px;
+      margin: auto;
+    }
 
  nav{
     display: flex;
@@ -68,6 +71,28 @@
       .hero-left p{
          color: bisque;
       }
+
+
+      /* speaker style */
+      .speakers{
+         text-align: center;
+         max-width: 1200px;
+         margin: auto;
+      }
+      .gallery{
+         margin-top: 20px;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 12px;
+      }
+      .whart-i-do-parent{
+         margin: 60px auto;
+         text-align: center;
+        justify-content: center;
+      }
+      
+      
+
 
 
       
